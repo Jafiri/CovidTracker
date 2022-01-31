@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">COVID Tracker</string>
+    <string name="covidprecation">• Keep a distance of at least 1 metre from others\n\n• Open windows when possible\n\n• Wear a mask\n\n• Clean hands\n\n• Cover coughs and sneezes\n\n• Stay home when sick\n\n• Get vaccinated as soon as it’s your turn</string>
+</resources>

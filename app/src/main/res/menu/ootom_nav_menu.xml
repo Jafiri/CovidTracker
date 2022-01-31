@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="withText|always"
+        />
+    <item
+        android:id="@+id/anchorr"
+        android:enabled="false"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/News"
+        android:title="News"
+        android:icon="@drawable/ic_baseline_chrome_reader_mode_24"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/anchor"
+        android:enabled="false"
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/payment"
+        android:title="Payment"
+        android:icon="@drawable/paymenticon"
+        app:showAsAction="always"/>
+
+</menu>

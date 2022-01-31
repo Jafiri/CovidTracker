@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "162033087042",
+    "project_id": "corona-tracker-12d89",
+    "storage_bucket": "corona-tracker-12d89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162033087042:android:38c7e7bcd6dbb0011b33db",
+        "android_client_info": {
+          "package_name": "com.example.coronatracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162033087042-5hotc2qevimf53fvcf3pch52naacfc2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPmRAydJkjI_d-m58vKE7LcFOYYdtXCjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162033087042-5hotc2qevimf53fvcf3pch52naacfc2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

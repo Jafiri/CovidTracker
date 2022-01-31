@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/drawable-v24/messagebg.xml" value="0.165234375" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/drawable/callbg.xml" value="0.165234375" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/drawable/home_background.xml" value="0.165234375" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/drawable/search_bg.xml" value="0.165234375" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/activity_country.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/activity_home.xml" value="0.2564841498559078" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/activity_main2.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/activity_news.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/activity_news_detail.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/activity_state.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/activity_web_view.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/custom_category_card.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/custom_country_card.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/custom_news_card.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/custom_state_card.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/custom_viewpage.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/custom_viewpage_home.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/layout/summa.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/menu/ootom_nav_menu.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/menu/ootom_nav_menuM.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/menu/ootom_nav_menum.xml" value="0.153125" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable-v24/box_border_white.xml" value="0.216796875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable-v24/box_border_whitee.xml" value="0.216796875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable/box_border.xml" value="0.216796875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable/coronavirusicon.xml" value="0.257" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable/home_background.xml" value="0.216796875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable/ic_baseline_chrome_reader_mode_24.xml" value="0.257" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.257" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable/paymenticon.xml" value="0.257" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_call_activiy.xml" value="0.2046875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_country.xml" value="0.2046875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_home.xml" value="0.32051282051282054" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_news.xml" value="0.2046875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_news_detail.xml" value="0.2046875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_send_optactivity.xml" value="0.22" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_state.xml" value="0.20252732240437157" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_state_detail.xml" value="0.22" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/activity_submit_otpactivity.xml" value="0.22" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/custom_country_card.xml" value="0.2046875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/custom_state_card.xml" value="0.22" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/customcallingcard.xml" value="0.2046875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/layout/summa.xml" value="0.2046875" />
+        <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/menu/ootom_nav_menu.xml" value="0.2046875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

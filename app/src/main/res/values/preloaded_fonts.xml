@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amethysta</item>
+        <item>@font/cabin_bold</item>
+        <item>@font/cabin_semibold</item>
+        <item>@font/cagliostro</item>
+        <item>@font/doppio_one</item>
+    </array>
+</resources>
