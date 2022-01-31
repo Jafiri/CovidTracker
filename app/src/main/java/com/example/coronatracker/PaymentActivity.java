@@ -23,9 +23,9 @@ import org.json.JSONObject;
 
 public class PaymentActivity extends AppCompatActivity implements PaymentResultListener {
 
-    EditText amountet,paymentname;
+    EditText amountet, paymentname;
     Button paymentbtn;
-    TextView mastercardno,visacardno;
+    TextView mastercardno, visacardno;
 
 
     @Override
@@ -41,10 +41,6 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
         //idtv = (TextView) findViewById(R.id.idtv);
 
         Checkout.preload(PaymentActivity.this);
-
-
-
-
         paymentbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,7 +64,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
             @Override
             public void onClick(View v) {
                 ClipboardManager clipboardManager = (ClipboardManager) PaymentActivity.this.getSystemService(PaymentActivity.this.CLIPBOARD_SERVICE);
-                ClipData data = (ClipData) ClipData.newPlainText("text",masterCardNumber);
+                ClipData data = (ClipData) ClipData.newPlainText("text", masterCardNumber);
                 clipboardManager.setPrimaryClip(data);
                 Toast.makeText(PaymentActivity.this, "Text Copied!", Toast.LENGTH_SHORT).show();
             }
@@ -78,37 +74,34 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
             @Override
             public void onClick(View v) {
                 ClipboardManager clipboardManager = (ClipboardManager) PaymentActivity.this.getSystemService(PaymentActivity.this.CLIPBOARD_SERVICE);
-                ClipData data = (ClipData) ClipData.newPlainText("text",visCardNumber);
+                ClipData data = (ClipData) ClipData.newPlainText("text", visCardNumber);
                 clipboardManager.setPrimaryClip(data);
                 Toast.makeText(PaymentActivity.this, "Text Copied!", Toast.LENGTH_SHORT).show();
             }
         });
-
-
-
     }
 
-    public void startPayment(int amount){
+    public void startPayment(int amount) {
         Checkout checkout = new Checkout();
         checkout.setKeyID("rzp_test_w0hZ5rRHF6tUWu");
         try {
 
             JSONObject jsonObject = new JSONObject();
-            jsonObject.put("name","Contribution to Covid Tracker");
-            jsonObject.put("description","Thank you for the contribution");
-            jsonObject.put("theme.color","#1E1E30");
-            jsonObject.put("currency","INR");
-            jsonObject.put("amount",amount*100);
+            jsonObject.put("name", "Contribution to Covid Tracker");
+            jsonObject.put("description", "Thank you for the contribution");
+            jsonObject.put("theme.color", "#1E1E30");
+            jsonObject.put("currency", "INR");
+            jsonObject.put("amount", amount * 100);
 
             JSONObject retryobj = new JSONObject();
-            retryobj.put("enabled","true");
-            retryobj.put("max_count",4);
+            retryobj.put("enabled", "true");
+            retryobj.put("max_count", 4);
 
-            jsonObject.put("retry",retryobj);
+            jsonObject.put("retry", retryobj);
 
             checkout.open(PaymentActivity.this, jsonObject);
 
-        }catch (Exception e){
+        } catch (Exception e) {
             Toast.makeText(PaymentActivity.this, "Something went wrong", Toast.LENGTH_SHORT).show();
 
         }
@@ -117,11 +110,11 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
     @Override
     public void onPaymentSuccess(String s) {
         new AlertDialog.Builder(PaymentActivity.this).setTitle("Thank you for your support").
-                setMessage("Name :"+paymentname.getText().toString()+"\nAmount :"+amountet.getText().toString()+"\nPayment ID :"+s+"\nPayment Successful")
+                setMessage("Name :" + paymentname.getText().toString() + "\nAmount :" + amountet.getText().toString() + "\nPayment ID :" + s + "\nPayment Successful")
                 .setPositiveButton("Exit", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(PaymentActivity.this,HomeActivity.class);
+                        Intent intent = new Intent(PaymentActivity.this, HomeActivity.class);
                         startActivity(intent);
                         finish();
                     }
@@ -145,7 +138,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
                 .setPositiveButton("Exit", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(PaymentActivity.this,HomeActivity.class);
+                        Intent intent = new Intent(PaymentActivity.this, HomeActivity.class);
                         startActivity(intent);
                         finish();
                     }
@@ -165,7 +158,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(PaymentActivity.this,HomeActivity.class);
+        Intent intent = new Intent(PaymentActivity.this, HomeActivity.class);
         startActivity(intent);
         finish();
     }
