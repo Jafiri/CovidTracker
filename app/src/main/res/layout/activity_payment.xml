@@ -58,7 +58,7 @@
         android:layout_marginRight="5dp"
         android:fontFamily="@font/doppio_one"
         android:gravity="center"
-        android:text="If you like to contribute to the developer"
+        android:text="Make a donation 😍"
         android:textColor="@color/color_primary"
         android:textSize="@dimen/title_size"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,7 +73,8 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/doppio_one"
         android:gravity="center"
-        android:text="Please fill the details below and proceed to the payment"
+        android:text="Buy me a cup of coffee and help me keep going.
+I love coffee ☕"
         android:textSize="@dimen/text_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
