@@ -101,8 +101,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
+            android:background="#EDEDED"
             android:gravity="center"
             android:text="Get OTP"
+            app:backgroundTint="#8E1616"
             app:elevation="20dp" />
 
         <TextView
@@ -156,6 +158,7 @@
             android:gravity="center"
             android:text="Submit"
 
+            app:backgroundTint="#8E1616"
             app:elevation="20dp" />
 
         <Button
@@ -167,6 +170,7 @@
             android:gravity="center"
             android:text="Resend OTP"
 
+            app:backgroundTint="#8E1616"
             app:elevation="20dp" />
 
     </LinearLayout>
