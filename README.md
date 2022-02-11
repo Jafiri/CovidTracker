@@ -1,12 +1,10 @@
-COVID TRACKER.
+COVID TRACKER Mobile Application
 
-COVID Live Stats Tracker of All Countries and Indian States
+Consists of four Modules 
 
-Along with Live News with Different Category 
-
-Payment Integration 
-
-And mobile number OTP Authentication 
+ -> Home 
+        > Can be called as home screen which provid the emergency Dail option along with the numbers of every states.
+        > A general information about covid prevention and some protective measures to safe gaurd from covid 19 for the users.
 
 
 
