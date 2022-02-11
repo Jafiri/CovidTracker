@@ -1,8 +1,12 @@
 COVID TRACKER.                                                                                                                                                                        
 COVID Live Stats Tracker of All Countries and Indian States
+
 Along with Live News with Different Category 
+
 Payment Integration 
+
 And mobile number OTP Authentication 
+
 
 
 ![Google Pixel 4 XL Screenshot 0](https://user-images.githubusercontent.com/98322945/152154907-1fb20887-340b-438b-9672-dae821979421.png)
