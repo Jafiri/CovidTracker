@@ -1,16 +1,29 @@
 COVID TRACKER Mobile Application
 
-Consists of four Modules 
+Consists of Six Modules 
+
+ -> Splash screen with animated GIF on it 
+ 
+ -> User Authentication with phone number OTP based system backend suppoert by firebase database.
 
  -> Home 
+ 
         > Can be called as home screen which provid the emergency Dail option along with the numbers of every states.
         > A general information about covid prevention and some protective measures to safe gaurd from covid 19 for the users.
         
  -> News
+ 
         > News screen will display the live current updated news around the world with click option which let the user to view the whole article.
-        > Categories option is there to select which type of perticular news the user wants to see like Health, Technology, science, sports, general, business, Entertainment
+        > Categories option is there to select which type of perticular news the user wants to see like Health, Technology, science, sports, general, business, Entertainment.
         
+ -> Payment 
+ 
+        > I have integrated a payment gateway with the help of Razorpay liberary (with demo key).
         
+  -> Covid Tracker 
+  
+        > Shows the live current stats of Confirm cases, Active Cases, Recovered, Deaths and Tested of india and has a option to select all countries and will dispaly the same.
+        > An option is there to check the stats of every Indian states which displayes Total confirmed, ConfirmedCasesIndian, ConfirmedCasesForegin, Discharged, Deaths. > Along with pie chart display.
 
 
 
