@@ -23,7 +23,8 @@ Consists of Six Modules
   -> Covid Tracker 
   
         > Shows the live current stats of Confirm cases, Active Cases, Recovered, Deaths and Tested of india and has a option to select all countries and will dispaly the same.
-        > An option is there to check the stats of every Indian states which displayes Total confirmed, ConfirmedCasesIndian, ConfirmedCasesForegin, Discharged, Deaths. > Along with pie chart display.
+        > An option is there to check the stats of every Indian states which displayes Total confirmed, ConfirmedCasesIndian, ConfirmedCasesForegin, Discharged, Deaths. 
+        > Along with pie chart display.
 
 
 
