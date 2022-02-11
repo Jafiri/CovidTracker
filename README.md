@@ -26,6 +26,10 @@ Consists of Six Modules
         > An option is there to check the stats of every Indian states which displayes Total confirmed, ConfirmedCasesIndian, ConfirmedCasesForegin, Discharged, Deaths. 
         > Along with pie chart display.
 
+-> Added some other modelus 
+
+        > Push notification Backed end with One signal.
+        > Added ads (Banner , Reward and Interstitial ) of Google Admob.
 
 
 ![Google Pixel 4 XL Screenshot 0](https://user-images.githubusercontent.com/98322945/152154907-1fb20887-340b-438b-9672-dae821979421.png)
