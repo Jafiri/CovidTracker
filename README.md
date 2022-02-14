@@ -2,7 +2,7 @@ COVID TRACKER Mobile Application
 
 Consists of Six Modules 
 
- -> Splash screen with animated GIF on it 
+ -> Splash screen with animated GIF on it. 
  
  -> User Authentication with phone number OTP based system backend suppoert by firebase database.
 
