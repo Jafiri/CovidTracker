@@ -13,6 +13,13 @@
 
     <color name="color_primary">#161625</color>
     <color name="color_primary_dark">#1E1E30</color>
+    <color name="text_color">#FF000000</color>
+    <color name="text_color_white">#CCCCCC</color>
+
+
+
+    <color name="botton_nav_icon">#0C0C0C</color>
+
 
 
     <color name="green">#7EC544</color>

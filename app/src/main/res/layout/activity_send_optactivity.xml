@@ -28,7 +28,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="7dp"
             android:text="OTP Verification"
-            android:textColor="@color/white"
+            android:textColor="@color/text_color_white"
             android:textSize="@dimen/title_size"
             android:textStyle="bold" />
 
@@ -44,7 +44,7 @@
             android:fontFamily="@font/doppio_one"
             android:gravity="center"
             android:text="We will send one time pass in this given phone number"
-            android:textColor="@color/white"
+            android:textColor="@color/text_color_white"
             android:textSize="@dimen/text_size" />
 
         <TextView
@@ -54,7 +54,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:text="Enter Mobile Number"
-            android:textColor="@color/white"
+            android:textColor="@color/text_color_white"
             android:textSize="@dimen/text_size" />
 
         <LinearLayout
@@ -74,7 +74,7 @@
                 android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:text="+91"
-                android:textColor="@color/white"
+                android:textColor="@color/text_color_white"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
@@ -84,11 +84,11 @@
                 android:layout_height="49dp"
                 android:background="@null"
                 android:hint="1234567890"
-                android:maxLength="10"
                 android:imeOptions="actionDone"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:textColor="@color/white"
+                android:maxLength="10"
+                android:textColor="@color/text_color_white"
                 android:textColorHint="#888888"
                 tools:ignore="TouchTargetSizeCheck" />
 
@@ -119,9 +119,8 @@
             android:fontFamily="@font/doppio_one"
             android:gravity="center"
             android:text="Please enter the OTP sent to your moblie"
-            android:textColor="@color/white"
-            android:textSize="@dimen/text_size"
-            />
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/text_size" />
 
         <TextView
             android:id="@+id/tvUserNumber"
@@ -129,9 +128,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:textColor="@color/white"
-            android:textSize="@dimen/text_size"
-            />
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/text_size" />
 
         <EditText
             android:id="@+id/etopt"
@@ -144,7 +142,7 @@
             android:inputType="number"
             android:maxLength="6"
             android:padding="14dp"
-            android:textColor="@color/white"
+            android:textColor="@color/text_color_white"
             android:textColorHint="#E8E7E7" />
 
         <Button

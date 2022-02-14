@@ -51,7 +51,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="90dp"
                 android:text="Are you feeling sick ?"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/title_size"
                 android:textStyle="bold" />
 
@@ -62,7 +62,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="130dp"
                 android:text="If you are feeling sick with any covid- 19 symptoms\nPlease call or SMS immediately for help !"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold" />
 
@@ -79,7 +79,7 @@
                 android:padding="6dp"
                 android:paddingStart="5dp"
                 android:text="Call Now"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold" />
 
@@ -97,7 +97,7 @@
                 android:padding="6dp"
                 android:paddingStart="5dp"
                 android:text="Send SMS"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold" />
 
@@ -140,7 +140,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="28dp"
                 android:text="Prevention"
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/title_size"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
@@ -164,7 +164,7 @@
                 android:layout_height="wrap_content"
                 android:text="Avoid close\ncontact"
                 android:textAlignment="center"
-                android:textColor="#090909"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView6"
@@ -177,7 +177,7 @@
                 android:layout_height="wrap_content"
                 android:text="Wear a \nface mask"
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView8"
@@ -190,7 +190,7 @@
                 android:layout_height="wrap_content"
                 android:text="Clean your \nhands often"
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView7"
@@ -270,7 +270,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="28dp"
                     android:text="Protective measures: Do it all"
-                    android:textColor="#000000"
+                    android:textColor="@color/text_color"
                     android:textSize="@dimen/title_size"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
@@ -284,7 +284,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="7dp"
                     android:text="Protect yourself and others from COVID-19 by following these precautions:"
-                    android:textColor="#000000"
+                    android:textColor="@color/text_color"
                     android:textSize="@dimen/text_size"
 
                     app:layout_constraintStart_toStartOf="parent"
@@ -300,7 +300,7 @@
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/doppio_one"
                     android:text="@string/covidprecation"
-                    android:textColor="#000000"
+                    android:textColor="@color/text_color"
                     android:textSize="@dimen/text_size"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -337,7 +337,7 @@
             android:src="@drawable/coronavirusicon"
             app:layout_anchor="@id/bottom_nav"
             app:maxImageSize="25dp"
-            app:tint="@android:color/white" />
+           />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

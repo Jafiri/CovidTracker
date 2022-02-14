@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_color">#AFACAC</color>
+    <color name="border_color">#1E1E30</color>
+
+
+    <color name="color_primary">#1E1E30</color>
+    <color name="color_primary_dark">#161625</color>
+
+
+    <color name="text_color">#CCCCCC</color>
+    <color name="text_color_white">#CCCCCC</color>
+
+    <color name="botton_nav_icon">#BC0F03</color>
+
+</resources>

@@ -67,7 +67,7 @@
         android:fontFamily="@font/doppio_one"
         android:gravity="center"
         android:text="Make a donation 😍"
-        android:textColor="@color/color_primary"
+        android:textColor="@color/text_color"
         android:textSize="@dimen/title_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -83,6 +83,7 @@
         android:gravity="center"
         android:text="Buy me a cup of coffee and help me keep going.
 I love coffee ☕"
+        android:textColor="@color/text_color"
         android:textSize="@dimen/text_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -95,7 +96,7 @@ I love coffee ☕"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="For Demo! use the card/UPI details given below"
-        android:textColor="#000000"
+        android:textColor="@color/text_color"
         android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -127,7 +128,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Card Network"
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textStyle="bold" />
 
             <TextView
@@ -137,7 +138,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Card Number  "
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textStyle="bold" />
 
             <TextView
@@ -147,7 +148,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="CVV"
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textStyle="bold" />
 
             <TextView
@@ -157,7 +158,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Expiry Date"
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -174,7 +175,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Mastercard"
-                android:textColor="#000000" />
+                android:textColor="@color/text_color" />
 
             <TextView
                 android:id="@+id/mastercardno"
@@ -183,7 +184,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="5267 3181\n 8797 5449  "
-                android:textColor="#000000" />
+                android:textColor="@color/text_color" />
 
             <TextView
                 android:id="@+id/textView1932"
@@ -194,7 +195,7 @@ I love coffee ☕"
                 android:layout_marginRight="20dp"
                 android:gravity="left"
                 android:text="Random"
-                android:textColor="#000000" />
+                android:textColor="@color/text_color" />
 
             <TextView
                 android:id="@+id/textView2032"
@@ -203,7 +204,7 @@ I love coffee ☕"
                 android:layout_marginStart="5dp"
                 android:gravity="center"
                 android:text="Any future\n date"
-                android:textColor="#000000" />
+                android:textColor="@color/text_color" />
         </LinearLayout>
 
         <LinearLayout
@@ -220,7 +221,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Visacard"
-                android:textColor="#000000" />
+                android:textColor="@color/text_color" />
 
             <TextView
                 android:id="@+id/visacardno"
@@ -229,7 +230,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="4111 1111\n 1111 1111  "
-                android:textColor="#000000" />
+                android:textColor="@color/text_color" />
 
             <TextView
                 android:id="@+id/textView192"
@@ -240,7 +241,7 @@ I love coffee ☕"
                 android:layout_marginRight="20dp"
                 android:gravity="left"
                 android:text="Random"
-                android:textColor="#000000" />
+                android:textColor="@color/text_color" />
 
             <TextView
                 android:id="@+id/textView202"
@@ -249,7 +250,7 @@ I love coffee ☕"
                 android:layout_marginStart="5dp"
                 android:gravity="center"
                 android:text="Any future\n date"
-                android:textColor="#000000" />
+                android:textColor="@color/text_color" />
         </LinearLayout>
 
         <View
@@ -272,7 +273,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="UPI Details"
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textStyle="bold" />
 
             <TextView
@@ -282,7 +283,7 @@ I love coffee ☕"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="success@razorpay"
-                android:textColor="#000000"
+                android:textColor="@color/text_color"
                 android:textStyle="bold" />
         </LinearLayout>
 
