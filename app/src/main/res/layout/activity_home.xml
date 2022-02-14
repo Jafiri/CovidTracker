@@ -26,7 +26,7 @@
             app:collapsedTitleTextColor="@color/white"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleGravity="top"
-            app:expandedTitleTextColor="@color/white"
+            app:expandedTitleTextColor="#CDCDCDCD"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
             app:title="Covid Tracker"
             app:titleEnabled="true">
@@ -51,7 +51,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="90dp"
                 android:text="Are you feeling sick ?"
-                android:textColor="@color/text_color"
+                android:textColor="#CDCDCD"
                 android:textSize="@dimen/title_size"
                 android:textStyle="bold" />
 
@@ -62,7 +62,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="130dp"
                 android:text="If you are feeling sick with any covid- 19 symptoms\nPlease call or SMS immediately for help !"
-                android:textColor="@color/text_color"
+                android:textColor="#CDCDCD"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold" />
 
@@ -79,7 +79,7 @@
                 android:padding="6dp"
                 android:paddingStart="5dp"
                 android:text="Call Now"
-                android:textColor="@color/text_color"
+                android:textColor="#CDCDCD"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold" />
 
@@ -97,7 +97,7 @@
                 android:padding="6dp"
                 android:paddingStart="5dp"
                 android:text="Send SMS"
-                android:textColor="@color/text_color"
+                android:textColor="#CDCDCD"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold" />
 
