@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -39,7 +40,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
         paymentname = (EditText) findViewById(R.id.paymentname);
         paymentbtn = (Button) findViewById(R.id.paymentbtn);
         //idtv = (TextView) findViewById(R.id.idtv);
-
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         Checkout.preload(PaymentActivity.this);
         paymentbtn.setOnClickListener(new View.OnClickListener() {
             @Override

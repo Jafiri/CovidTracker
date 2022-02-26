@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -35,6 +36,8 @@ public class NewsDetailActivity extends AppCompatActivity {
         idTVSubTitletxt =(TextView) findViewById(R.id.idTVSubTitletxt);
         idTVContenttxt =(TextView) findViewById(R.id.idTVContenttxt);
         see=(Button)findViewById(R.id.see);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         title = getIntent().getStringExtra("title");
         desc = getIntent().getStringExtra("desc");

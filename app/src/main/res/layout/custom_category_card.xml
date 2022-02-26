@@ -5,7 +5,7 @@
     android:layout_height="70dp"
     android:layout_gravity="center"
     android:layout_margin="5dp"
-    app:cardBackgroundColor="@color/color_primary"
+    app:cardBackgroundColor="@color/background"
     app:cardCornerRadius="8dp">
 
     <RelativeLayout
@@ -18,21 +18,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@color/color_primary"/>
+            android:src="@color/background" />
 
         <TextView
+            android:id="@+id/TVCategory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/TVCategory"
-            android:gravity="center"
             android:layout_centerInParent="true"
-            android:textColor="@color/white"
-            android:text="Category"
-            android:textStyle="bold"
-            android:textSize="@dimen/text_size"
+            android:gravity="center"
             android:padding="3dp"
-            />
-
+            android:text="Category"
+            android:textColor="@color/white_white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
 
 
     </RelativeLayout>

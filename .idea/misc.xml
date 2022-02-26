@@ -26,14 +26,32 @@
         <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/menu/ootom_nav_menuM.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/CoronaTracker/app/src/main/res/menu/ootom_nav_menum.xml" value="0.153125" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/box_border.xml" value="0.1325" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/calicon.xml" value="0.2115" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/coronavirusicon.xml" value="0.203" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/home_background.xml" value="0.2115" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.2115" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/ic_baseline_chrome_reader_mode_24.xml" value="0.203" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2115" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/paymenticon.xml" value="0.203" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/search_bg.xml" value="0.2115" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/drawable/searchicon.xml" value="0.2115" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_call_activiy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_country.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_news.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_news_detail.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_payment.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_send_optactivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_send_optactivity.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_state.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_state_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/activity_web_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/custom_category_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/custom_country_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/custom_news_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/custom_state_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/custom_viewpage_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/layout/customcallingcard.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lenovo/CovidTracker/app/src/main/res/menu/ootom_nav_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Noor/AndroidStudioProjects/myAndroid/CoronaTracker/app/src/main/res/drawable-v24/box_border_white.xml" value="0.216796875" />

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_primary_dark"
+    android:background="@color/background"
     tools:context=".News.NewsActivity">
 
 
@@ -16,7 +16,7 @@
         android:layout_marginTop="36dp"
         android:fontFamily="@font/doppio_one"
         android:text="Today's Headlines"
-        android:textColor="@color/white"
+        android:textColor="@color/icon"
         android:textSize="@dimen/title_size2"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,11 +82,11 @@
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/color_primary_dark"
             android:src="@drawable/coronavirusicon"
+            android:backgroundTint="@color/background"
             app:layout_anchor="@id/bottom_nav"
             app:maxImageSize="25dp"
-            app:tint="@android:color/white" />
+            app:tint="@color/icon" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 

@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "162033087042",
-    "project_id": "corona-tracker-12d89",
-    "storage_bucket": "corona-tracker-12d89.appspot.com"
+    "project_number": "932698503477",
+    "project_id": "covidtracker-f373e",
+    "storage_bucket": "covidtracker-f373e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:162033087042:android:38c7e7bcd6dbb0011b33db",
+        "mobilesdk_app_id": "1:932698503477:android:c4ae89eda015da98e7747c",
         "android_client_info": {
           "package_name": "com.example.coronatracker"
         }
       },
       "oauth_client": [
         {
-          "client_id": "162033087042-5hotc2qevimf53fvcf3pch52naacfc2f.apps.googleusercontent.com",
+          "client_id": "932698503477-rf73h4it7a1qhnbibneibbdm4f2b0956.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coronatracker",
+            "certificate_hash": "bb101ffaa44d683603bcc04688b6357fa4b90b3e"
+          }
+        },
+        {
+          "client_id": "932698503477-lbl1jk9sed3pcumubcpndl7pfbsv3sva.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBPmRAydJkjI_d-m58vKE7LcFOYYdtXCjg"
+          "current_key": "AIzaSyCw8THkHTxJJ58L7KzO8Yhj1p8fZzoCWCo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "162033087042-5hotc2qevimf53fvcf3pch52naacfc2f.apps.googleusercontent.com",
+              "client_id": "932698503477-lbl1jk9sed3pcumubcpndl7pfbsv3sva.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

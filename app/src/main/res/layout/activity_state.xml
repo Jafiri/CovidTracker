@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_primary_dark"
+    android:background="@color/background"
     tools:context=".API_Country.CountryActivity">
 
     <EditText
@@ -46,7 +46,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/cabin_bold"
             android:text="S.no"
-            android:textColor="@color/white"
+            android:textColor="@color/text"
             android:textStyle="bold" />
 
         <TextView
@@ -57,7 +57,7 @@
             android:fontFamily="@font/cabin_bold"
             android:gravity="center"
             android:text="Name"
-            android:textColor="@color/white"
+            android:textColor="@color/text"
             android:textStyle="bold" />
 
         <TextView
@@ -68,7 +68,7 @@
             android:fontFamily="@font/cabin_bold"
             android:gravity="center"
             android:text="Cases"
-            android:textColor="@color/white"
+            android:textColor="@color/text"
             android:textStyle="bold" />
     </LinearLayout>
 

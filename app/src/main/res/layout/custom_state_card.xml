@@ -9,9 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:layout_marginBottom="5dp"
         android:elevation="3dp"
-        app:cardBackgroundColor="@color/color_primary"
+        app:cardBackgroundColor="@color/background"
         app:cardCornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -38,7 +37,7 @@
                 android:layout_marginEnd="25dp"
                 android:fontFamily="@font/cabin_bold"
                 android:text="S.no"
-                android:textColor="@color/white"
+                android:textColor="@color/text"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
@@ -50,7 +49,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/cabin_bold"
                 android:text="Name"
-                android:textColor="@color/white"
+                android:textColor="@color/text"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
@@ -64,7 +63,7 @@
                 android:fontFamily="@font/cabin_bold"
                 android:gravity="end"
                 android:text="Cases"
-                android:textColor="@color/white"
+                android:textColor="@color/text"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
         </LinearLayout>

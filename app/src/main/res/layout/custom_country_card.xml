@@ -9,9 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:layout_marginBottom="5dp"
         android:elevation="3dp"
-        app:cardBackgroundColor="@color/color_primary"
+        app:cardBackgroundColor="@color/background"
         app:cardCornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -38,7 +37,7 @@
                 android:layout_marginEnd="10dp"
                 android:fontFamily="@font/cabin_bold"
                 android:text="S.no"
-                android:textColor="@color/white"
+                android:textColor="@color/text"
                 android:textStyle="bold" />
 
             <ImageView
@@ -54,7 +53,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/cabin_bold"
                 android:text="Name"
-                android:textColor="@color/white"
+                android:textColor="@color/text"
                 android:textStyle="bold" />
 
             <TextView
@@ -62,12 +61,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
+                android:layout_marginLeft="10dp"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:drawablePadding="2dp"
                 android:fontFamily="@font/cabin_bold"
                 android:gravity="end"
                 android:text="Cases"
-                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
-                android:drawablePadding="2dp" android:layout_marginLeft="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/text"
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>

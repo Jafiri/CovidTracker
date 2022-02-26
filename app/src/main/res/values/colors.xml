@@ -33,4 +33,13 @@
     <color name="blue_pie">#007afe</color>
     <color name="red_pie">#F6404F</color>
     <color name="green_pie">#08a045</color>
+
+    <color name="text">#FF000000</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="icon">#FF930000</color>
+    <color name="btn_text">#FFFFFFFF</color>
+    <color name="white_white">#FFFFFFFF</color>
+
+
+
 </resources>

@@ -11,6 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/background"
         android:orientation="vertical">
 
         <ImageView
@@ -20,7 +21,7 @@
             android:layout_marginTop="50dp"
             android:layout_marginBottom="10dp"
             android:src="@drawable/paperplaneicon"
-            app:tint="@color/white" />
+            app:tint="@color/icon" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +29,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="7dp"
             android:text="OTP Verification"
-            android:textColor="@color/text_color_white"
+            android:textColor="@color/text"
             android:textSize="@dimen/title_size"
             android:textStyle="bold" />
 
@@ -44,7 +45,7 @@
             android:fontFamily="@font/doppio_one"
             android:gravity="center"
             android:text="We will send one time pass in this given phone number"
-            android:textColor="@color/text_color_white"
+            android:textColor="@color/text"
             android:textSize="@dimen/text_size" />
 
         <TextView
@@ -54,7 +55,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:text="Enter Mobile Number"
-            android:textColor="@color/text_color_white"
+            android:textColor="@color/text"
             android:textSize="@dimen/text_size" />
 
         <LinearLayout
@@ -74,7 +75,7 @@
                 android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:text="+91"
-                android:textColor="@color/text_color_white"
+                android:textColor="@color/text"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
@@ -88,7 +89,7 @@
                 android:importantForAutofill="no"
                 android:inputType="number"
                 android:maxLength="10"
-                android:textColor="@color/text_color_white"
+                android:textColor="@color/text"
                 android:textColorHint="#888888"
                 tools:ignore="TouchTargetSizeCheck" />
 
@@ -101,10 +102,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:background="#EDEDED"
+            android:background="@color/icon"
             android:gravity="center"
             android:text="Get OTP"
-            app:backgroundTint="#8E1616"
+            android:textColor="@color/btn_text"
+            app:backgroundTint="@color/icon"
             app:elevation="20dp" />
 
         <TextView
@@ -119,7 +121,7 @@
             android:fontFamily="@font/doppio_one"
             android:gravity="center"
             android:text="Please enter the OTP sent to your moblie"
-            android:textColor="@color/text_color_white"
+            android:textColor="@color/text"
             android:textSize="@dimen/text_size" />
 
         <TextView
@@ -128,7 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:textColor="@color/text_color_white"
+            android:textColor="@color/text"
             android:textSize="@dimen/text_size" />
 
         <EditText
@@ -142,7 +144,7 @@
             android:inputType="number"
             android:maxLength="6"
             android:padding="14dp"
-            android:textColor="@color/text_color_white"
+            android:textColor="@color/text"
             android:textColorHint="#E8E7E7" />
 
         <Button
@@ -156,7 +158,8 @@
             android:gravity="center"
             android:text="Submit"
 
-            app:backgroundTint="#8E1616"
+            android:textColor="@color/btn_text"
+            app:backgroundTint="@color/icon"
             app:elevation="20dp" />
 
         <Button
@@ -168,7 +171,8 @@
             android:gravity="center"
             android:text="Resend OTP"
 
-            app:backgroundTint="#8E1616"
+            android:textColor="@color/btn_text"
+            app:backgroundTint="@color/icon"
             app:elevation="20dp" />
 
     </LinearLayout>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="5dp">
+    android:layout_marginBottom="5dp"
+    android:background="@color/background">
 
     <LinearLayout
         android:id="@+id/callbutton"
@@ -26,7 +27,7 @@
             android:layout_marginEnd="15dp"
             android:fontFamily="@font/cabin_bold"
             android:text="S.no"
-            android:textColor="@color/white"
+            android:textColor="@color/text"
             android:textSize="@dimen/title_size"
             android:textStyle="bold" />
 
@@ -37,7 +38,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/cabin_bold"
             android:text="Name"
-            android:textColor="@color/white"
+            android:textColor="@color/text"
             android:textSize="@dimen/title_size"
             android:textStyle="bold" />
 
@@ -50,7 +51,7 @@
             android:fontFamily="@font/cabin_bold"
             android:gravity="end"
             android:text="Cases"
-            android:textColor="@color/white"
+            android:textColor="@color/text"
             android:textSize="@dimen/title_size"
             android:textStyle="bold" />
 

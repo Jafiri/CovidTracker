@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/background"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
@@ -23,10 +24,10 @@
             android:layout_height="300dp"
             android:background="@drawable/home_background"
             android:fitsSystemWindows="true"
-            app:collapsedTitleTextColor="@color/white"
+            app:collapsedTitleTextColor="@color/btn_text"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleGravity="top"
-            app:expandedTitleTextColor="#CDCDCDCD"
+            app:expandedTitleTextColor="@color/btn_text"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
             app:title="Covid Tracker"
             app:titleEnabled="true">
@@ -42,7 +43,7 @@
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax"
                 app:srcCompat="@drawable/covidtoolbarbg"
-                app:tint="#C6C6C6" />
+                app:tint="@color/btn_text" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -51,7 +52,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="90dp"
                 android:text="Are you feeling sick ?"
-                android:textColor="#CDCDCD"
+                android:textColor="@color/btn_text"
                 android:textSize="@dimen/title_size"
                 android:textStyle="bold" />
 
@@ -62,7 +63,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="130dp"
                 android:text="If you are feeling sick with any covid- 19 symptoms\nPlease call or SMS immediately for help !"
-                android:textColor="#CDCDCD"
+                android:textColor="@color/btn_text"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold" />
 
@@ -115,7 +116,7 @@
                     android:layout_gravity="right"
                     android:layout_marginRight="10dp"
                     android:src="@drawable/logouticon"
-                    app:tint="#C6C6C6" />
+                    app:tint="@color/text" />
             </androidx.appcompat.widget.Toolbar>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -131,6 +132,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/background"
             android:layout_marginBottom="10dp">
 
             <TextView
@@ -140,7 +142,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="28dp"
                 android:text="Prevention"
-                android:textColor="@color/text_color"
+                android:textColor="@color/icon"
                 android:textSize="@dimen/title_size"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
@@ -164,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:text="Avoid close\ncontact"
                 android:textAlignment="center"
-                android:textColor="@color/text_color"
+                android:textColor="@color/text"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView6"
@@ -177,7 +179,7 @@
                 android:layout_height="wrap_content"
                 android:text="Wear a \nface mask"
                 android:textAlignment="center"
-                android:textColor="@color/text_color"
+                android:textColor="@color/text"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView8"
@@ -190,7 +192,7 @@
                 android:layout_height="wrap_content"
                 android:text="Clean your \nhands often"
                 android:textAlignment="center"
-                android:textColor="@color/text_color"
+                android:textColor="@color/text"
                 android:textSize="@dimen/text_size0"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/imageView7"
@@ -270,7 +272,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="28dp"
                     android:text="Protective measures: Do it all"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/icon"
                     android:textSize="@dimen/title_size"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
@@ -284,7 +286,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="7dp"
                     android:text="Protect yourself and others from COVID-19 by following these precautions:"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/text_size"
 
                     app:layout_constraintStart_toStartOf="parent"
@@ -300,7 +302,7 @@
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/doppio_one"
                     android:text="@string/covidprecation"
-                    android:textColor="@color/text_color"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/text_size"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -333,11 +335,11 @@
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/color_primary_dark"
             android:src="@drawable/coronavirusicon"
+            android:backgroundTint="@color/background"
             app:layout_anchor="@id/bottom_nav"
             app:maxImageSize="25dp"
-           />
+            app:tint="@color/icon" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -15,6 +15,7 @@ import android.telecom.Call;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -78,6 +79,8 @@ public class HomeActivity extends AppCompatActivity implements OnUserEarnedRewar
         floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
         callNow = (TextView) findViewById(R.id.callnow);
         logout = (ImageView) findViewById(R.id.logout);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
@@ -177,26 +180,26 @@ public class HomeActivity extends AppCompatActivity implements OnUserEarnedRewar
     private void ShowRewaredAd() {
 
         RewardedInterstitialAd.load(HomeActivity.this, "ca-app-pub-3940256099942544/5354046379", new AdRequest.Builder().build(),
-                                new RewardedInterstitialAdLoadCallback() {
-            @Override
-            public void onAdLoaded(@NonNull RewardedInterstitialAd rewardedInterstitialAd) {
-                super.onAdLoaded(rewardedInterstitialAd);
-                rewardedInterstitialAd.show(HomeActivity.this,HomeActivity.this);
-            }
+                new RewardedInterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(@NonNull RewardedInterstitialAd rewardedInterstitialAd) {
+                        super.onAdLoaded(rewardedInterstitialAd);
+                        rewardedInterstitialAd.show(HomeActivity.this, HomeActivity.this);
+                    }
 
-            @Override
-            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-                super.onAdFailedToLoad(loadAdError);
-            }
-        });
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        super.onAdFailedToLoad(loadAdError);
+                    }
+                });
     }
 
     private void InterstitialAdShow() {
 
         AdRequest adRequest = new AdRequest.Builder().build();
-        
 
-        InterstitialAd.load(this,"ca-app-pub-3940256099942544/1033173712", adRequest,
+
+        InterstitialAd.load(this, "ca-app-pub-3940256099942544/1033173712", adRequest,
                 new InterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {

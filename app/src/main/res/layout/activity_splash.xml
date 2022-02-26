@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".SplashActivity">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -11,12 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="300dp"
         android:layout_marginTop="136dp"
+        android:foregroundGravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
-        android:foregroundGravity="center"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/coronavirussplash" />
 
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/cagliostro"
         android:text="Covid Tracker"
-        android:textColor="@color/text_color"
+        android:textColor="@color/icon"
         android:textSize="@dimen/title_size3"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/animation_view"
@@ -41,7 +42,7 @@
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/doppio_one"
         android:text="By your Developer\n           Jafiri"
-        android:textColor="@color/text_color"
+        android:textColor="@color/text"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/appname"

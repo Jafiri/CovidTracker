@@ -14,4 +14,10 @@
 
     <color name="botton_nav_icon">#BC0F03</color>
 
+    <color name="background">#FF161625</color>
+    <color name="text">#FFFFFFFF</color>
+    <color name="white_white">#FFFFFFFF</color>
+    <color name="icon">#FFD700</color>
+    <color name="btn_text">#FF000000</color>
+
 </resources>

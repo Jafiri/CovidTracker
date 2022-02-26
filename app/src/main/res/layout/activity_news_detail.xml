@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_primary_dark"
+    android:background="@color/background"
     tools:context=".News.NewsDetailActivity">
 
     <ScrollView
@@ -30,7 +30,7 @@
                 android:layout_marginBottom="15dp"
                 android:fontFamily="@font/doppio_one"
                 android:text="Today's Headlines"
-                android:textColor="@color/white"
+                android:textColor="@color/icon"
                 android:textSize="@dimen/title_size2"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
@@ -56,9 +56,10 @@
                 android:maxLines="2"
                 android:padding="3dp"
                 android:text="New Heading"
-                android:textColor="@color/yellow"
+                android:textColor="@color/icon"
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/idTVSubTitletxt"
                 android:layout_width="match_parent"
@@ -70,8 +71,9 @@
                 android:maxLines="3"
                 android:padding="3dp"
                 android:text="SubHeading"
-                android:textSize="@dimen/text_size"
-                android:textColor="@color/white" />
+                android:textColor="@color/text"
+                android:textSize="@dimen/text_size" />
+
             <TextView
                 android:id="@+id/idTVContenttxt"
                 android:layout_width="match_parent"
@@ -83,13 +85,17 @@
                 android:maxLines="3"
                 android:padding="3dp"
                 android:text="SubHeading"
-                android:textColor="@color/white" />
+                android:textColor="@color/text" />
+
             <Button
                 android:id="@+id/see"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
-                android:text="Read full Artical"/>
+                android:background="@color/icon"
+                android:text="Read full Artical"
+                android:textColor="@color/btn_text"
+                app:backgroundTint="@color/icon" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

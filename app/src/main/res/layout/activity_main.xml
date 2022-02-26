@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAFAFA"
+    android:background="@color/background"
     tools:context=".API_Country.CountryDetailActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -20,7 +21,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="350dp"
-            android:background="@color/color_primary"
+            android:background="@color/background"
             app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
             app:layout_constraintStart_toEndOf="@+id/linearLayout3">
 
@@ -70,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/amethysta"
                     android:text="Corona Tracker"
-                    android:textColor="@color/white"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/text_size" />
 
                 <TextView
@@ -81,7 +82,7 @@
                     android:drawablePadding="3dp"
                     android:fontFamily="monospace"
                     android:text="India"
-                    android:textColor="@color/white"
+                    android:textColor="@color/icon"
                     android:textSize="@dimen/title_size3"
                     android:textStyle="bold"
                     app:drawableRightCompat="@drawable/ic_dropdown" />
@@ -93,7 +94,7 @@
                     android:layout_marginTop="5dp"
                     android:fontFamily="monospace"
                     android:text="Updated at Jan 01,2022"
-                    android:textColor="@color/white"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/text_size0"
                     android:textStyle="normal" />
             </LinearLayout>
@@ -140,7 +141,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/amethysta"
                         android:text="Conform"
-                        android:textColor="@color/white"
+                        android:textColor="@color/text"
                         android:textSize="@dimen/text_size" />
 
                 </LinearLayout>
@@ -161,7 +162,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/amethysta"
                         android:text="Active"
-                        android:textColor="@color/white"
+                        android:textColor="@color/text"
                         android:textSize="@dimen/text_size" />
 
                 </LinearLayout>
@@ -182,7 +183,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/amethysta"
                         android:text="Recovered"
-                        android:textColor="@color/white"
+                        android:textColor="@color/text"
                         android:textSize="@dimen/text_size" />
 
                 </LinearLayout>
@@ -203,7 +204,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/amethysta"
                         android:text="Death"
-                        android:textColor="@color/white"
+                        android:textColor="@color/text"
                         android:textSize="@dimen/text_size" />
 
                 </LinearLayout>
@@ -219,7 +220,7 @@
                 android:drawablePadding="10dp"
                 android:fontFamily="@font/amethysta"
                 android:text="Indian States"
-                android:textColor="@color/white"
+                android:textColor="@color/icon"
                 android:textSize="@dimen/text_size"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -231,6 +232,8 @@
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="80dp"
+        android:foregroundGravity="bottom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -241,6 +244,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:layout_marginTop="25dp"
+            android:gravity="bottom"
             android:orientation="vertical">
 
             <LinearLayout
@@ -254,7 +259,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Confirm Cases"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/title_size" />
 
                 <TextView
@@ -263,7 +268,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="end"
                     android:text="0"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/icon" />
             </LinearLayout>
 
             <LinearLayout
@@ -277,7 +282,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Active Cases"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/title_size" />
 
                 <TextView
@@ -286,7 +291,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="end"
                     android:text="0"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/icon" />
             </LinearLayout>
 
             <LinearLayout
@@ -300,7 +305,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Recovered"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/title_size" />
 
                 <TextView
@@ -309,7 +314,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="end"
                     android:text="0"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/icon" />
             </LinearLayout>
 
             <LinearLayout
@@ -323,7 +328,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Deaths"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/title_size" />
 
                 <TextView
@@ -332,7 +337,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="end"
                     android:text="0"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/icon" />
             </LinearLayout>
 
             <LinearLayout
@@ -346,7 +351,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Tested"
-                    android:textColor="@color/black"
+                    android:textColor="@color/text"
                     android:textSize="@dimen/title_size" />
 
                 <TextView
@@ -355,7 +360,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="end"
                     android:text="0"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/icon" />
             </LinearLayout>
 
             <TextView
@@ -397,11 +402,11 @@
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/color_primary_dark"
+            android:backgroundTint="@color/background"
             android:src="@drawable/coronavirusicon"
             app:layout_anchor="@id/bottom_nav"
             app:maxImageSize="25dp"
-            app:tint="@android:color/white" />
+            app:tint="@color/icon" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

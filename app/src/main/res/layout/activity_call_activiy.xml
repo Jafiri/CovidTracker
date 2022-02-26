@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@color/color_primary"
+    android:background="@color/background"
     tools:context=".CALLnSMS.CallActiviy">
 
     <TextView
@@ -16,7 +16,7 @@
         android:layout_marginTop="24dp"
         android:fontFamily="@font/doppio_one"
         android:text="Helpline Number for corona-virus"
-        android:textColor="@color/white"
+        android:textColor="@color/icon"
         android:textSize="@dimen/title_size2"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
         android:layout_marginTop="24dp"
         android:gravity="center"
         android:text="Central Helpline Number for corona-virus:"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/text"
         android:textSize="@dimen/title_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="+91-11-23978046"
-        android:textColor="@color/yellow"
+        android:textColor="@color/icon"
         android:textSize="@dimen/title_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
