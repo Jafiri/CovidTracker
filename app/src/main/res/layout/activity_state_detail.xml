@@ -11,8 +11,9 @@
         android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:orientation="vertical"
+        android:background="@color/white_white"
 
+        android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/statescrollView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -34,7 +35,8 @@
             android:id="@+id/stateChartView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="35dp">
+            android:layout_marginTop="35dp"
+            android:background="@color/transparent">
 
         </com.anychart.AnyChartView>
     </LinearLayout>

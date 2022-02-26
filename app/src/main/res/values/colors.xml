@@ -39,6 +39,7 @@
     <color name="icon">#FF930000</color>
     <color name="btn_text">#FFFFFFFF</color>
     <color name="white_white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
 
 
 

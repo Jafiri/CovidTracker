@@ -19,5 +19,6 @@
     <color name="white_white">#FFFFFFFF</color>
     <color name="icon">#FFD700</color>
     <color name="btn_text">#FF000000</color>
+    <color name="transparent">#00000000</color>
 
 </resources>
