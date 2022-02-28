@@ -26,7 +26,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
 
     EditText amountet, paymentname;
     Button paymentbtn;
-    TextView mastercardno, visacardno;
+    TextView mastercardno, visacardno,upi;
 
 
     @Override
@@ -36,6 +36,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
 
         amountet = (EditText) findViewById(R.id.amountet);
         mastercardno = (TextView) findViewById(R.id.mastercardno);
+        upi = (TextView) findViewById(R.id.upi);
         visacardno = (TextView) findViewById(R.id.visacardno);
         paymentname = (EditText) findViewById(R.id.paymentname);
         paymentbtn = (Button) findViewById(R.id.paymentbtn);
@@ -60,12 +61,22 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
 
         String masterCardNumber = mastercardno.getText().toString();
         String visCardNumber = visacardno.getText().toString();
+        String upiNumber = upi.getText().toString();
 
         mastercardno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ClipboardManager clipboardManager = (ClipboardManager) PaymentActivity.this.getSystemService(PaymentActivity.this.CLIPBOARD_SERVICE);
                 ClipData data = (ClipData) ClipData.newPlainText("text", masterCardNumber);
+                clipboardManager.setPrimaryClip(data);
+                Toast.makeText(PaymentActivity.this, "Text Copied!", Toast.LENGTH_SHORT).show();
+            }
+        });
+        upi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ClipboardManager clipboardManager = (ClipboardManager) PaymentActivity.this.getSystemService(PaymentActivity.this.CLIPBOARD_SERVICE);
+                ClipData data = (ClipData) ClipData.newPlainText("text", upiNumber);
                 clipboardManager.setPrimaryClip(data);
                 Toast.makeText(PaymentActivity.this, "Text Copied!", Toast.LENGTH_SHORT).show();
             }
